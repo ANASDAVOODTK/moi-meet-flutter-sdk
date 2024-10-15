@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="org.moi.moi_meet_flutter_sdk">
-    <application>
+    package="org.moi.moi_meet_flutter_sdk">
+
+    <application
+        android:usesCleartextTraffic="true"  <!-- Optional: if HTTP is used -->
+        android:networkSecurityConfig="@xml/network_security_config"> <!-- If HTTPS is required -->
+
         <activity
             android:name="org.moi.moi_meet_flutter_sdk.WrapperJitsiMeetActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
@@ -9,7 +13,18 @@
             android:resizeableActivity="true"
             android:showOnLockScreen="true"
             android:supportsPictureInPicture="true"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"
+            tools:replace="android:label">
+
+            <!-- Intent filter for deep linking or external launch -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="meet.moi.org" />
+            </intent-filter>
         </activity>
+
     </application>
 </manifest>
