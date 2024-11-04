@@ -313,14 +313,6 @@ var listener = MoiMeetEventListener(
     );
 ```
 
-## References
-
-While building this project inspiration from https://github.com/saibotma/moi_meet_wrapper was taken.
-
-
-
-
-
 
 
 
