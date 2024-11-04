@@ -1,4 +1,4 @@
-class FeatureFlagVideoResolutions{
+class FeatureFlagVideoResolutions {
   FeatureFlagVideoResolutions._();
 
   /// VARs [resolution180p] : Video resolution at 180p

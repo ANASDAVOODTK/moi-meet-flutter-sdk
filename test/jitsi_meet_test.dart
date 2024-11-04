@@ -16,63 +16,63 @@ class MockMoiMeetPlatform
   @override
   Future<MethodResponse> join(
       MoiMeetConferenceOptions options, MoiMeetEventListener? listener) {
-    // TODO: implement join
+    // implement join
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> hangUp() {
-    // TODO: implement hangUp
+    // implement hangUp
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> setAudioMuted(bool muted) {
-    // TODO: implement setAudioMuted
+    // implement setAudioMuted
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> setVideoMuted(bool muted) {
-    // TODO: implement setVideoMuted
+    // implement setVideoMuted
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> sendEndpointTextMessage(
       {String? to, required String message}) {
-    // TODO: implement sendEndpointTextMessage
+    // implement sendEndpointTextMessage
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> toggleScreenShare(bool enabled) {
-    // TODO: implement toggleScreenShare
+    // implement toggleScreenShare
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> openChat([String? to]) {
-    // TODO: implement openChat
+    // implement openChat
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> sendChatMessage(
       {String? to, required String message}) {
-    // TODO: implement sendChatMessage
+    // implement sendChatMessage
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> closeChat() {
-    // TODO: implement closeChat
+    // implement closeChat
     throw UnimplementedError();
   }
 
   @override
   Future<MethodResponse> retrieveParticipantsInfo() {
-    // TODO: implement retrieveParticipantsInfo
+    // implement retrieveParticipantsInfo
     throw UnimplementedError();
   }
 }
