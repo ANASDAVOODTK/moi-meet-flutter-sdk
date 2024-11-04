@@ -1,4 +1,4 @@
-package org.aioman.moi_meet_flutter_sdk
+package org.aioman.meet.moi_meet_flutter_sdk
 
 import android.app.Activity
 import android.content.BroadcastReceiver

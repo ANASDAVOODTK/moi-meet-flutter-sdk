@@ -1,4 +1,4 @@
-package org.aioman.moi_meet_flutter_sdk
+package org.aioman.meet.moi_meet_flutter_sdk
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

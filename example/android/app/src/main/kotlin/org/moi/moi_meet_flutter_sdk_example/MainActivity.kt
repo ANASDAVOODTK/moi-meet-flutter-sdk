@@ -1,4 +1,4 @@
-package org.aioman.moi_meet_flutter_sdk_example
+package org.aioman.meet.moi_meet_flutter_sdk_example
 
 import io.flutter.embedding.android.FlutterActivity
 

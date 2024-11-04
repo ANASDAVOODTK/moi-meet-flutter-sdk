@@ -25,7 +25,7 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle" // This should come after the plugins block
 
 android {
-    namespace "org.aioman.moi_meet_flutter_sdk_example"
+    namespace "org.aioman.meet.moi_meet_flutter_sdk_example"
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         // Application ID and versioning
-        applicationId "org.aioman.moi_meet_flutter_sdk_example"
+        applicationId "org.aioman.meet.moi_meet_flutter_sdk_example"
         minSdkVersion 24
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
