@@ -3,6 +3,8 @@ description: A flutter plugin that serves as a Moi Meet flutter SDK which provid
 version: 1.0.0
 homepage: https://meet.aioman.org
 repository: https://github.com/ANASDAVOODTK/moi-meet-flutter-sdk
+documentation: https://github.com/ANASDAVOODTK/moi-meet-flutter-sdk/blob/main/README.md
+
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
