@@ -1,4 +1,4 @@
-package org.moi.moi_meet_flutter_sdk
+package org.aioman.moi_meet_flutter_sdk
 
 import android.app.Activity
 import androidx.annotation.NonNull

@@ -1,4 +1,4 @@
-package org.moi.moi_meet_flutter_sdk
+package org.aioman.moi_meet_flutter_sdk
 
 import io.flutter.plugin.common.EventChannel
 import java.io.Serializable

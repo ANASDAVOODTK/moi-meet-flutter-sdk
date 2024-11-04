@@ -1,4 +1,4 @@
-group 'org.moi.moi_meet_flutter_sdk'
+group 'org.aioman.moi_meet_flutter_sdk'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -29,7 +29,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'org.moi.moi_meet_flutter_sdk'
+    namespace 'org.aioman.moi_meet_flutter_sdk'
     compileSdkVersion 34
 
     compileOptions {
