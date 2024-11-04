@@ -1,3 +1,7 @@
+## 1.0.2
+* Fix: Updated Android package namespace to org.aioman.meet
+* Fix: Android manifest configuration issues
+
 ## 1.0.1
 * Fix: Android manifest configuration for better app integration
 * Updated minimum SDK versions

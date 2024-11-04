@@ -1,6 +1,6 @@
 name: moi_meet_flutter_sdk
 description: A flutter plugin that serves as a Moi Meet flutter SDK which provides the same user experience as the Moi Meet app.
-version: 1.0.1
+version: 1.0.2
 homepage: https://meet.aioman.org
 repository: https://github.com/ANASDAVOODTK/moi-meet-flutter-sdk
 documentation: https://github.com/ANASDAVOODTK/moi-meet-flutter-sdk/blob/main/README.md
