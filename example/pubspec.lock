@@ -134,10 +134,9 @@ packages:
   moi_meet_flutter_sdk:
     dependency: "direct main"
     description:
-      name: moi_meet_flutter_sdk
-      sha256: ed62b9d2a8862c2f66829012af1dbe58eaf10e2be84c51d0c6880f1bc77ec3fa
-      url: "https://pub.dev"
-    source: hosted
+      path: ".."
+      relative: true
+    source: path
     version: "1.0.7"
   path:
     dependency: transitive

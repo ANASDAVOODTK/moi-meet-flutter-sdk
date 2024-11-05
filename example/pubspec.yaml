@@ -35,13 +35,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  moi_meet_flutter_sdk: 1.0.7
+  moi_meet_flutter_sdk:
     # When depending on this package from a real application you should use:
     #   moi_meet_flutter_sdk: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
-  path: ../
+    path: ../
   #   git:
   #     url: https://github.com/ANASDAVOODTK/moi-meet-flutter-sdk
 
