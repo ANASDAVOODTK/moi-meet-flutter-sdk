@@ -5,6 +5,8 @@ import 'package:moi_meet_flutter_sdk/moi_meet_flutter_sdk.dart';
 // import 'package:moi_meet_flutter_sdk/moi_meet_flutter_sdk.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 

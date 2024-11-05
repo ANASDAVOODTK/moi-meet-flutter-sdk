@@ -1,6 +1,6 @@
-# moi_meet_flutter_sdk_example
+# moi_test
 
-Demonstrates how to use the moi_meet_flutter_sdk plugin.
+A new Flutter project.
 
 ## Getting Started
 
