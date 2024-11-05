@@ -1,4 +1,10 @@
-## 1.0.4
+## 1.0.6
+- Updated Android Gradle plugin to 8.0.1
+- Updated Kotlin version to 1.7.21
+- Upgraded target SDK version to 34
+- Enhanced manifest configuration with proper activity attributes
+
+## 1.0.5
 * Fix: Readme.md Update
 
 ## 1.0.4
