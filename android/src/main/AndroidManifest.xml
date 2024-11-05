@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.aioman.meet.moi_meet_flutter_sdk">
+
+    <uses-sdk tools:overrideLibrary="org.jitsi.meet.sdk"/>
 
     <application
         android:usesCleartextTraffic="true"
