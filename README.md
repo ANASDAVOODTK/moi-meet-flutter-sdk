@@ -16,7 +16,7 @@ The Moi Meet Flutter SDK provides the same user experience as the Moi Meet app, 
 ## Sample application using the Flutter
 
 If you want to see how easy integrating the Moi Meet Flutter SDK into a Flutter application is, take a look at the<br/>
-[sample applications repository](https://github.com/moi/moi-meet-sdk-samples/tree/master/flutter).
+[sample applications repository](https://github.com/ANASDAVOODTK/moi-meet-sdk-samples/tree/master/flutter).
 
 ## Installation
 
@@ -79,8 +79,6 @@ The plugin requests camera and microphone access, make sure to include the requi
 <key>NSMicrophoneUsageDescription</key>
 <string>The app needs access to your microphone for meetings.</string>
 ```
-
-To use the screen sharing feature requires `Broadcast Upload Extension`. Please check the following to integrate it: [https://moi.github.io/handbook/docs/dev-guide/dev-guide-ios-sdk/#screen-sharing-integration](https://moi.github.io/handbook/docs/dev-guide/dev-guide-ios-sdk/#screen-sharing-integration).
 
 ### Android
 
@@ -173,7 +171,7 @@ Example:
 
 ```dart
 var options = MoiMeetConferenceOptions(
-      serverURL: "https://meet.jit.si",
+      serverURL: "https://meet.aioman.org",
       room: "moiIsAwesomeWithFlutter",
       configOverrides: {
         "startWithAudioMuted": false,
@@ -190,9 +188,6 @@ var options = MoiMeetConferenceOptions(
     );
 ```
 
-- All the values that can be added to the `configOverrides` can be found [here](https://github.com/moi/moi-meet/blob/master/config.js).
-
-- All the values that can be added to the `featureFlags` can be found [here](https://github.com/moi/moi-meet/blob/master/react/features/base/flags/constants.ts).
 
 - #### MoiMeetUserInfo({String displayName, String email, String avatar})
     The constructor for the MoiMeetUserInfo. 
