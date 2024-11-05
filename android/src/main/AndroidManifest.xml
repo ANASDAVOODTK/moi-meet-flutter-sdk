@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="org.aioman.meet.moi_meet_flutter_sdk">
 
     <application
@@ -17,15 +18,13 @@
             android:showOnLockScreen="true"
             android:supportsPictureInPicture="true"
             android:windowSoftInputMode="adjustResize"
-            android:exported="true"
-            tools:replace="android:label">
+            android:exported="true">
 
-            <!-- Intent filter for deep linking or external launch -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="meet.moi.org" />
+                <data android:scheme="https" android:host="meet.aimoman.org" />
             </intent-filter>
         </activity>
 
