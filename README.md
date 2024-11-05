@@ -16,7 +16,7 @@ The Moi Meet Flutter SDK provides the same user experience as the Moi Meet app, 
 ## Sample application using the Flutter
 
 If you want to see how easy integrating the Moi Meet Flutter SDK into a Flutter application is, take a look at the<br/>
-[sample applications repository](https://github.com/ANASDAVOODTK/moi-meet-sdk-samples/tree/master/flutter).
+[sample applications repository](https://github.com/ANASDAVOODTK/moi-meet-sdk-samples).
 
 ## Installation
 
