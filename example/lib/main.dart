@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
         FeatureFlags.addPeopleEnabled: true,
         FeatureFlags.welcomePageEnabled: false,
         FeatureFlags.preJoinPageEnabled: false,
-        FeatureFlags.unsafeRoomWarningEnabled: true,
+        FeatureFlags.unsafeRoomWarningEnabled: false,
         FeatureFlags.resolution: FeatureFlagVideoResolutions.resolution720p,
         FeatureFlags.audioFocusDisabled: true,
         FeatureFlags.audioMuteButtonEnabled: true,
