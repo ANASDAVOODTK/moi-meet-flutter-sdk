@@ -1,7 +1,7 @@
 # Moi Meet Flutter SDK
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-darkblue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![pub package](https://img.shields.io/badge/pub-v10.2.1-blue)](https://pub.dev/packages/moi_meet_flutter_sdk)
+[![pub package](https://img.shields.io/badge/pub-v1.0.7-blue)](https://pub.dev/packages/moi_meet_flutter_sdk)
 
 The Moi Meet Flutter SDK provides the same user experience as the Moi Meet app, in the form of a Flutter plugin so that you can embed and customize Moi Meet in your own Flutter app.
 
@@ -30,7 +30,7 @@ $ flutter pub add moi_meet_flutter_sdk
 The command above will add this to the `pubspec.yaml` file in your project (you can do this manually):
 ```yaml
 dependencies:
-    moi_meet_flutter_sdk: ^10.2.1
+    moi_meet_flutter_sdk: ^1.0.7
 ```
 
 ### Install 
